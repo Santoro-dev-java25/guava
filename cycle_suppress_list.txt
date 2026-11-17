@@ -32,3 +32,7 @@ FIELD com.google.common.util.concurrent.ExecutionSequencer.ThreadConfinedTaskQue
 # There is no way for a CombinedFutureInterruptibleTask to receive a TaskNonReentrantExecutor as its listenerExecutor:
 # A TaskNonReentrantExecutor instance is used as an Executor only in a direct call to addListener.
 FIELD com.google.common.util.concurrent.CombinedFuture.CombinedFutureInterruptibleTask.listenerExecutor com.google.common.util.concurrent.ExecutionSequencer.TaskNonReentrantExecutor
+
+
+
+# Alteracao
